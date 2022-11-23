@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400&family=Roboto%3Awght%40700&family=Rubik%3Aital%2Cwght%400%2C400%3B1%2C300%3B1%2C400&display=swap%27%29%3B);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+.header{   
+    width: 100%;
+    height: 70px;
+    background: rgb(59, 177, 231);
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.header ul {
+    display: flex;   
+    list-style: none; 
+    gap: 30px;
+}
+.header ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.header ul li a:hover{
+    font-size: 21px;
+}
+.header2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    background: yellow;
+    padding: 10px;
+    margin-left: 30px;
+    transition: .5s;
+}
+.header2 a:hover{
+    background: red;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 21px;
+}
+nav{
+    width: 100%;
+    height: 700px;
+    background: rgb(215, 240, 252);
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    
+}
+.navegacao nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.busca{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.busca label img{
+    width: 23px;
+    height: 23px;
+}
+.busca label button{
+    background: rgb(0, 153, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+.busca input{
+    width: 500px;
+    text-align: center;
+    border: 1px solid rgb(0, 153, 255);
+    border-radius: 10px;
+}
+.ultimos{
+   font-weight: bold;
+   font-size: 13px;
+    width: 70%;
+    height: 400px;
+    margin-top: 80px;
+    background: rgb(224, 222, 222);
+    opacity: .6;
+}
+.ultimos p{      
+    display: inline-block;
+    text-align: center;
+        
+}
+.ultimos p a{
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    background: rgb(153, 225, 238);
+    padding: 5px;
+}
+.ultimos p a:hover{
+    background: rgb(89, 3, 97);
+    color: aquamarine;
+}
+#ult1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+#ult2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#ult3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#ult4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+#ult5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(72deg, #4280E1 1%, #3decb1 72%);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.copy{
+    margin: 25px;
+    
+}
+.copy a{
+    text-decoration: none;
+    color: black;
+}
+.copy2{
+    margin-left: 700px;
+    margin-top: 25px;
+}
